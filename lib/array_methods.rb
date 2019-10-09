@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
- array.index do |value_to_find|
- puts value_to_find 
+ while array.include?(value_to_find) === true do
+   
 end
 
 def find_max_value(array)
